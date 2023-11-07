@@ -1,0 +1,860 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+#netflixLogo{
+    transform: scale(0.4);
+    top: -10px;
+    left: 20px;
+    position: absolute;
+}
+#SignInBtn{
+    position: absolute;
+    left: 1100px;
+    top: 40px;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    width: 75px;
+    background-color: #f50914;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 500ms;
+}
+#SignInBtn:hover{
+    background-color: #d20610;
+}
+#firstContainer{
+    box-shadow: inset 200px 0px 300px #02000186,  inset -200px 0px 300px #02000186, inset 0px -500px 200px #02000186, inset -100px 200px 100px #02000186;
+    z-index: 1px;
+    background-image: url(images/Netflix\ Background.png);
+    height: 689px;
+}
+.hr1{
+    margin: 0px 0px 0px 0px;
+    height: 10px;
+    width: 100%;
+    background-color: #232323;
+    border: none;
+
+}
+#heading1{
+    color: white;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 270px;
+    margin-bottom: 0;
+}
+#para1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#para2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+}
+#emailinput{
+    margin-top: 15px;
+    margin-left: 380px;
+    border: 1px solid #63625e;
+    width: 360px;
+    height: 50px;
+    background-color: #13121275;
+    border-radius: 5px;
+    padding-left: 12px;
+    color: white;
+    transition: 500ms;
+}
+#span1{
+    color: #b9bab8;
+    position: absolute;
+    top: 478px;
+    left: 392px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 500ms;
+}
+
+#emailinput:focus + #span1{
+    top: 465px;
+    font-size: small;
+}
+
+#getStartedBtn{
+    position: absolute;
+    top: 462px;
+    width: 200px;
+    margin-left: 5px;
+    height: 53px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    border-radius: 5px;
+    background-color: #f50914;
+    border: none;
+    transition: 500ms;
+}
+#getStartedBtn:hover{
+    background-color: #d20610;
+}
+#secondContainer, #thirdContainer, #fifthContainer{
+    background-color: black;
+    width: 1349px;
+    height: 500px;
+}
+#heading2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+#para3{
+    margin-top: 0px;
+    color: white;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+#tvImage{
+    width: 500px;
+    margin-top: 50px;
+    margin-right: 150px;
+}
+#contentContainer{
+    margin-top: 100px;
+    margin-right: 50px;
+    padding-left: 150px;
+}
+#netflixVideo{
+    z-index: 1;
+    width: 365px;
+    height: 210px;
+    position: absolute;
+    top: 828px;
+    left: 761.4px;
+}
+#tvRemote{
+    position: absolute;
+    z-index: 1;
+    left:635px;
+    top: 710px;
+}
+#box{
+    position: absolute;
+    display: inline-block;
+    top: 1510px;
+    left: 275px;
+    border: 2px solid #5a5a5a;
+    width: 290px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: black;
+}
+#mobileImage{
+    transform: scale(0.8);
+    margin-left: 100px;
+}
+#boxImage{
+    top: -55px;
+    left: -35px;
+    position: absolute;
+    transform: scale(0.4);
+}
+
+#boxContent1, #boxContent2{
+    color: white;
+    position: absolute;
+    display: block;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#boxContent1{
+    top: 30px;
+    left: 80px;
+    font-weight: 600;
+}
+#boxContent2{
+    top: 52px;
+    left: 80px;
+    color: #004beb;
+    font-size: 14px;
+}
+#gif{
+    position: absolute;
+    left: 200px;
+    transform: scale(0.5);
+}
+#heading3{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin-right: 100px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+#para4{
+    margin-top: 0px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    text-align: justify;
+    margin-right: 150px;
+    margin-bottom: 0px;
+}
+#forthContainer{
+    margin-top: 10px;
+    background-color: black;
+    width: 1349px;
+    height: 350px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading4{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+#para5{
+    margin-top: 0px;
+    font-size: 25px;
+}
+#Cont1{
+    width: 420px;
+    margin-left: 250px;
+    margin-top: 60px;
+}
+#kidsImage{
+    transform: scale(0.8);
+    margin-left: 50px;
+}
+#fifthContainer{
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#heading6{
+    font-weight: 900;
+    font-size: 50px;
+}
+#para7{
+    font-size: 25px;    
+}
+#Cont2{
+    margin-right: 100px;
+}
+#sixthContainer{
+    background-color: black;
+    width: 1349px;
+    height: 1155px;
+}
+#heading7{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+#moveIcon1{
+    color: white;
+    position: absolute;
+    left: 1100px;
+    top: 2798px;
+    font-size: 35px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.Btn{
+    margin-left: 160px;
+    border: none;
+    background-color: #2d2d2d;
+    width: 1020px;
+    height: 89px;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-bottom: 0px;
+    transition: 500ms;
+    cursor: pointer;
+}
+.Btn:hover, .Btn2:hover, .Btn3:hover, .Btn4:hover, .Btn5:hover, .Btn6:hover, .Btn7:hover{
+    background-color: #474747;
+}
+.questionDiv{
+    margin-left: 160px;
+    display: none;
+    position: absolute;
+    background-color: #2d2d2d;
+    width: 980px;
+    height: 250px;
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1ms;
+}
+.Btn:focus ~ .questionDiv{
+    display: block;
+}
+.Btn:focus + #moveIcon1{
+    rotate: 135deg;
+    transition: 100ms;
+}
+.Btn:not(:focus) + #moveIcon1{
+    rotate: 90deg;
+    transition: 100ms;
+}
+#Btn:focus ~ .questionDiv{
+    display: block;
+}
+.questionDiv2{
+    margin-left: 160px;
+    display: none;
+    position: absolute;
+    background-color: #2d2d2d;
+    width: 980px;
+    height: 150px;
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1ms;
+}
+.Btn2:focus ~ .questionDiv2{
+    display: block;
+}
+.Btn:focus ~ .Btn2{
+    margin-top: 260px;
+}
+.Btn2{
+    margin-top: 10px;
+    margin-left: 160px;
+    border: none;
+    background-color: #2d2d2d;
+    width: 1020px;
+    height: 89px;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-bottom: 0px;
+    transition: 100ms;
+    cursor: pointer;
+}
+.Btn:focus ~ #moveIcon2{
+    top: 3148px;
+}
+.Btn2:focus + #moveIcon2{
+    rotate: 135deg;
+    transition: 100ms;
+}
+#moveIcon2{
+    color: white;
+    position: absolute;
+    left: 1100px;
+    top: 2898px;
+    font-size: 35px;
+    font-weight: lighter;
+    transition: 100ms;
+    cursor: pointer;
+}
+.questionDiv3{
+    margin-left: 160px;
+    display: none;
+    position: absolute;
+    background-color: #2d2d2d;
+    width: 980px;
+    height: 300px;
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1ms;
+}
+.Btn3{
+    margin-top: 10px;
+    margin-left: 160px;
+    border: none;
+    background-color: #2d2d2d;
+    width: 1020px;
+    height: 89px;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-bottom: 0px;
+    transition: 100ms;
+    cursor: pointer;
+}
+#moveIcon3{
+    color: white;
+    position: absolute;
+    left: 1100px;
+    top: 3000px;
+    font-size: 35px;
+    font-weight: lighter;
+    transition: 100ms;
+    cursor: pointer;
+}
+.Btn2:focus ~ .Btn3{
+    margin-top: 160px;
+}
+.Btn3:focus + #moveIcon4{
+    rotate: 135deg;
+    transition: 100ms;
+}
+.Btn3:not(:focus) ~ #moveIcon4{
+    rotate: 90deg;
+    transition: 100ms;
+}
+.Btn3:focus ~ .questionDiv3{
+    display: block;
+}
+#moveIcon4{
+    color: white;
+    position: absolute;
+    left: 1100px;
+    top: 3000px;
+    font-size: 35px;
+    font-weight: lighter;
+    transition: 100ms;
+    cursor: pointer;
+}
+.Btn2:focus ~ #moveIcon4{
+    top: 3150px;
+}
+.Btn:focus ~ #moveIcon4{
+    top: 3250px;
+}
+.questionDiv4{
+    margin-left: 160px;
+    display: none;
+    position: absolute;
+    background-color: #2d2d2d;
+    width: 980px;
+    height: 150px;
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1ms;
+}
+#moveIcon5{
+    color: white;
+    position: absolute;
+    left: 1100px;
+    top: 3090px;
+    font-size: 35px;
+    font-weight: lighter;
+    transition: 100ms;
+    cursor: pointer;
+}
+.Btn4{
+    margin-top: 10px;
+    margin-left: 160px;
+    border: none;
+    background-color: #2d2d2d;
+    width: 1020px;
+    height: 89px;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-bottom: 0px;
+    transition: 100ms;
+    cursor: pointer;
+}
+.Btn4:focus ~ .Btn5{
+    margin-top: 160px;
+}
+.Btn4:focus ~ #moveIcon5{
+    rotate: 135deg;
+    transition: 100ms;
+}
+.Btn4:not(:focus) ~ #moveIcon5{
+    rotate: 90deg;
+    transition: 100ms;
+}
+.Btn3:focus ~ .Btn4{
+    margin-top: 310px;
+}
+.Btn3:focus ~ #moveIcon5{
+    top: 3390px;
+}
+.Btn4:focus ~ .questionDiv4{
+    display: block;
+}
+.Btn:focus ~ #moveIcon5{
+    top: 3340px;
+}
+.Btn2:focus ~ #moveIcon5{
+    top: 3240px;
+}
+.Btn5{
+    margin-top: 10px;
+    margin-left: 160px;
+    border: none;
+    background-color: #2d2d2d;
+    width: 1020px;
+    height: 89px;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-bottom: 0px;
+    transition: 100ms;
+    cursor: pointer;
+}
+#moveIcon6{
+    color: white;
+    position: absolute;
+    left: 1100px;
+    top: 3190px;
+    font-size: 35px;
+    font-weight: lighter;
+    transition: 100ms;
+    cursor: pointer;
+}
+.questionDiv5{
+    margin-left: 160px;
+    display: none;
+    position: absolute;
+    background-color: #2d2d2d;
+    width: 980px;
+    height: 130px;
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1ms;
+}
+.Btn5:focus ~ .questionDiv5{
+    display: block;
+}
+.Btn5:focus ~ #moveIcon6{
+    rotate: 135deg;
+    transition: 100ms;
+}
+.Btn5:not(:focus) ~ #moveIcon6{
+    rotate: 90deg;
+    transition: 100ms;
+}
+.Btn:focus ~ #moveIcon6{
+    top: 3445px;
+}
+.Btn2:focus ~ #moveIcon6{
+    top: 3345px;
+}
+.Btn3:focus ~ #moveIcon6{
+    top: 3490px;
+}
+.Btn4:focus ~ #moveIcon6{
+    top: 3345px;
+}
+.Btn6{
+    margin-top: 10px;
+    margin-left: 160px;
+    border: none;
+    background-color: #2d2d2d;
+    width: 1020px;
+    height: 89px;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin-bottom: 0px;
+    transition: 100ms;
+    cursor: pointer;
+}
+#moveIcon7{
+    color: white;
+    position: absolute;
+    left: 1100px;
+    top: 3290px;
+    font-size: 35px;
+    font-weight: lighter;
+    transition: 100ms;
+    cursor: pointer;
+}
+.questionDiv6{
+    margin-left: 160px;
+    display: none;
+    position: absolute;
+    background-color: #2d2d2d;
+    width: 980px;
+    height: 210px;
+    margin-top: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 1ms;
+}
+.Btn6:focus ~ .questionDiv6{
+    display: block;
+}
+.Btn6:focus ~ #moveIcon7{
+    rotate: 135deg;
+    transition: 100ms;
+}
+.Btn6:not(:focus) ~ #moveIcon7{
+    rotate: 90deg;
+    transition: 100ms;
+}
+.Btn:focus ~ #moveIcon7{
+    top: 3545px;
+}
+.Btn2:focus ~ #moveIcon7{
+    top: 3445px;
+}
+.Btn3:focus ~ #moveIcon7{
+    top: 3590px;
+}
+.Btn4:focus ~ #moveIcon7{
+    top: 3445px;
+}
+.Btn5:focus ~ #moveIcon7{
+    top: 3420px;
+}
+.Btn5:focus ~ .Btn6{
+    margin-top: 140px;
+}
+#heading8{
+    position: absolute;
+    top: 3480px;
+    left: 370px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+#getStartedBtn2:hover{
+    background-color: #d20610;
+}
+#getStartedBtn2{
+        position: absolute;
+        top: 3603px;
+        left: 755px;
+        width: 200px;
+        margin-left: 5px;
+        height: 53px;
+        color: white;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        border-radius: 5px;
+        background-color: #f50914;
+        border: none;
+}
+#emailinput1:focus + #span2{
+    top: 465px;
+    font-size: small;
+}
+#span2{
+    color: #b9bab8;
+    position: absolute;
+    top: 3619px;
+    left: 392px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#emailinput1:focus + #span2{
+    top: 3607px;
+    font-size: small;
+    transition: 500ms;
+}
+#emailinput1{
+    position: absolute;
+    margin-top: 3px;
+    border: 1px solid #63625e;
+    width: 360px;
+    height: 50px;
+    top: 3600px;
+    left: 380px;
+    background-color: #13121275;
+    border-radius: 5px;
+    padding-left: 12px;
+    color: white;
+}
+.Btn:focus ~ #span2{
+    top: 3725px;
+    transition: 100ms;
+}
+.Btn:focus ~ #getStartedBtn2{
+    top: 3709.3px;
+    transition: 100ms;
+}
+.Btn2:focus ~ #span2{
+    top: 3625px;
+    transition: 100ms;
+}
+.Btn2:focus ~ #getStartedBtn2{
+    top: 3609.5px;
+    transition: 100ms;
+}
+.Btn3:focus ~ #span2{
+    top: 3775px;
+    transition: 100ms;
+}
+.Btn3:focus ~ #getStartedBtn2{
+    top: 3760px;
+    transition: 100ms;
+}
+.Btn4:focus ~ #span2{
+    top: 3625px;
+    transition: 100ms;
+}
+.Btn4:focus ~ #getStartedBtn2{
+    top: 3610px;
+    transition: 100ms;
+}
+.Btn5:focus ~ #span2{
+    top: 3605px;
+    transition: 100ms;
+}
+.Btn5:focus ~ #getStartedBtn2{
+    top: 3590px;
+    transition: 100ms;
+}
+.Btn:focus ~ #emailinput1{
+    position: absolute;
+    top: 3707px;
+    transition: 100ms;
+}
+.Btn2:focus ~ #emailinput1{
+    position: absolute;
+    top: 3607px;
+    transition: 100ms;
+}
+.Btn3:focus ~ #emailinput1{
+    position: absolute;
+    top: 3757px;
+    transition: 100ms;
+}
+.Btn4:focus ~ #emailinput1{
+    position: absolute;
+    top: 3606px;
+    transition: 100ms;
+}
+.Btn5:focus ~ #emailinput1{
+    position: absolute;
+    top: 3587px;
+    transition: 100ms;
+}
+.Btn6:focus ~ #emailinput1{
+    position: absolute;
+    top: 3670px;
+    transition: 100ms;
+}
+.Btn6:focus ~ #span2{
+    top: 3690px;
+    transition: 100ms;
+}
+.Btn6:focus ~ #getStartedBtn2{
+    top: 3673px;
+    transition: 100ms;
+}
+.Btn:focus ~ #heading8{
+    top: 3590px;
+    transition: 100ms;
+}
+.Btn2:focus ~ #heading8{
+    top: 3510px;
+    transition: 100ms;
+}
+.Btn3:focus ~ #heading8{
+    top: 3650px;
+    transition: 100ms;
+}
+.Btn4:focus ~ #heading8{
+    top: 3500px;
+    transition: 100ms;
+}
+.Btn5:focus ~ #heading8{
+    top: 3480px;
+    transition: 100ms;
+}
+.Btn6:focus ~ #heading8{
+    top: 3560px;
+    transition: 100ms;
+}
+#lastContainer{
+    margin-top: 10px;
+    background-color: black;
+    width: 1349px;
+    height: 370px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: #b3b3b3;
+    display: block;
+    padding: 10px;
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14.5px;
+}
+#linkDiv{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#selectDiv{
+    margin-top: 20px;
+    margin-left: 113px;
+}
+#selectDiv select{
+    width: 120px;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f3f3f3;
+    background-color: #0f0f0f;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 35px;
+}
+.fa-language{
+    position: absolute;
+    top: 4128px;
+    color: #f1e5e5;
+    font-size: larger;
+    left: 120px;
+}
+#lastPara{
+    margin-left: 114px;
+    font-size: small;
+    color: #b3b3b3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#emailinput1:not(:focus) ~ #span2{
+    transition: 100ms;
+}
